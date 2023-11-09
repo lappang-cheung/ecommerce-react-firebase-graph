@@ -1,9 +1,11 @@
+import Directory from '../../components/Directory'
+
+import './styles.scss'
+
 const HomePage = props => {
   return (
-    <section>
-      <h1>
-        Home Page
-      </h1>
+    <section className="homepage">
+      <Directory />
     </section>
   )
 }
