@@ -1,4 +1,5 @@
 import Header from '../components/Header/index.jsx'
+import Footer from '../components/Footer/index.jsx'
 
 const MainLayout = props => {
   return (
@@ -7,6 +8,7 @@ const MainLayout = props => {
       <div className="main">
         {props.children}
       </div>
+      <Footer />
     </div>
   )
 }
