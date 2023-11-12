@@ -6,6 +6,7 @@ import HomepageLayout from "./layouts/HomepageLayout.jsx";
 // Pages
 import HomePage from './pages/HomePage'
 import Registration from './pages/Registration'
+import Login from './pages/Login/'
 
 import './default.scss'
 
@@ -22,6 +23,11 @@ const App = () => {
         <Route path="/registration" Component={() => (
           <MainLayout>
             <Registration />
+          </MainLayout>
+        )}/>
+        <Route path="/login" Component={() => (
+          <MainLayout>
+            <Login />
           </MainLayout>
         )}/>
       </Routes>
